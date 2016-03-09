@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #d05c2e;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Merriweather";
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+
+img {
+  width: 50px;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  border-style: solid;
+  border-color: #a63f38;
+}
+
+li {
+  font-size: 1.125rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  float: right;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
